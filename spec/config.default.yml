@@ -57,59 +57,59 @@ mysql5.6:
   username: root
   password:
   port: 13323
-mysql5.5:
-  adapter: mysql2
-  host: 127.0.0.1
-  database: temping_test
-  username: root
-  password:
-  port: 13324
-postgresql16:
+postgresql17:
   adapter: postgresql
   host: 127.0.0.1
   database: temping_test
   username: postgres
   password: password
   port: 15442
-postgresql15:
+postgresql16:
   adapter: postgresql
   host: 127.0.0.1
   database: temping_test
   username: postgres
   password: password
   port: 15443
-postgresql14:
+postgresql15:
   adapter: postgresql
   host: 127.0.0.1
   database: temping_test
   username: postgres
   password: password
   port: 15444
-postgresql13:
+postgresql14:
   adapter: postgresql
   host: 127.0.0.1
   database: temping_test
   username: postgres
   password: password
   port: 15445
-postgresql12:
+postgresql13:
   adapter: postgresql
   host: 127.0.0.1
   database: temping_test
   username: postgres
   password: password
   port: 15446
-postgresql11:
+postgresql12:
   adapter: postgresql
   host: 127.0.0.1
   database: temping_test
   username: postgres
   password: password
   port: 15447
-postgresql10:
+postgresql11:
   adapter: postgresql
   host: 127.0.0.1
   database: temping_test
   username: postgres
   password: password
   port: 15448
+postgresql10:
+  adapter: postgresql
+  host: 127.0.0.1
+  database: temping_test
+  username: postgres
+  password: password
+  port: 15449

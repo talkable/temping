@@ -11,8 +11,8 @@ Gem::Specification.new do |s|
 
   s.required_ruby_version = ">= 2.5"
 
-  s.add_dependency "activerecord", ">= 6.0", "< 7.3"
-  s.add_dependency "activesupport", ">= 6.0", "< 7.3"
+  s.add_dependency "activerecord", ">= 6.0", "< 8.1"
+  s.add_dependency "activesupport", ">= 6.0", "< 8.1"
 
   s.add_development_dependency "appraisal", "~> 2.5"
 
@@ -27,7 +27,7 @@ Gem::Specification.new do |s|
     end
     s.add_development_dependency "activerecord-jdbcmysql-adapter", ">= 60.0" unless mysql_skipped
   else
-    s.add_development_dependency "sqlite3", ">= 1.3", "< 2.0" unless sqlite_skipped
+    s.add_development_dependency "sqlite3", ">= 1.3", "< 3.0" unless sqlite_skipped
     s.add_development_dependency "pg", ">= 1.2", "< 2.0" unless postgresql_skipped
     s.add_development_dependency "mysql2", "~> 0.5" unless mysql_skipped
   end
